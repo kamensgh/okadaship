@@ -464,18 +464,29 @@ body {
             text-align: center;
 
             h1 {
-                font-size: 50px;
+                font-size: 34px;
                 line-height: 1.2;
                 font-weight: 800;
                 letter-spacing: .025em;
                 text-transform: uppercase;
+                margin-bottom: 35px;
+
+                @media (max-width: 768px) {
+
+                    font-size: 27px;
+                }
             }
 
             p {
-                font-size: 20px;
+                font-size: 26px;
                 line-height: 1.5;
-                font-weight: 300;
+                font-weight: 600;
                 letter-spacing: .025em;
+
+                @media (max-width: 768px) {
+
+                    font-size: 23px;
+                }
             }
         }
     }
