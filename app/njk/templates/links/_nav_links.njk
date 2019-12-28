@@ -1,0 +1,15 @@
+{% macro  active(activePage='home', baseUrl = '') %}
+<!-- <li class="nav-item {%if activePage == '' %} active {% endif %}">
+  <a class="nav-link" href="#">Get The App</a>
+</li> -->
+<li class="nav-item {%if activePage == '' %} active {% endif %}">
+  <a class="nav-link" href="#about" id="">About Us</a>
+</li>
+<li class="nav-item {%if activePage == '' %} active {% endif %}">
+  <a class="nav-link" href="#services" id="">Services</a>
+</li>
+<li class="nav-item {%if activePage == '' %} active {% endif %}">
+  <a class="nav-link" href="#team" id="">Our Team</a>
+</li>
+
+{% endmacro %}

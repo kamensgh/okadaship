@@ -1,0 +1,37 @@
+{
+    "dependencies": {
+      "main.js": {
+        "files": [
+          "scripts/utilities.js",
+          "scripts/main.js"
+        ],
+        "main": true
+      },
+      "main.css": {
+        "files": [
+          "styles/main.scss"
+        ],
+        "main": true
+      },
+      "login.css": {
+        "files": [
+          "styles/pages/login.scss"
+        ]
+      },
+      "inner.css": {
+        "files": [
+          "styles/pages/inner.scss"
+        ]
+      },
+      "list.css": {
+        "files": [
+          "styles/pages/list.scss"
+        ]
+      },
+      "jquery.js": {
+        "bower": [
+          "jquery"
+        ]
+      }
+    }
+  }

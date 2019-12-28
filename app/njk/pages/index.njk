@@ -1,0 +1,510 @@
+<!-- website.nunjucks -->
+{% set title='Welcome to Okadaship' %}
+{% set topNav = 'home' %}
+{% extends "site_base.njk" %}
+
+
+{% block stylesheet %}
+
+
+{% endblock %}
+
+
+
+
+{% block content %}
+
+
+<div class="banner">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 ">
+                <div class="banner-img d-none d-md-block">
+                    <img src="../app/dist/images/phone.png" class="" alt="..." data-aos="fade-right"
+                        data-aos-once="true" data-aos-duration="2000">
+                </div>
+
+                <div class="d-block logo-bg d-md-none">
+                    <img src="../app/dist/images/logo.png" class="w-100" alt="...">
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 ">
+                <div class="box-custom">
+
+                    <div class="box-custom-2-inner" data-aos="fade-left" data-aos-once="true" data-aos-duration="1500">
+                        <h2>Okadaship <br> Delivery Service</h2>
+                        <div class="call-us">
+                            <i class="fas fa-phone-volume"></i>
+                            <a href="">+233 234 567 890</a>
+                        </div>
+                        <!-- <p>Green - Electric - Logistics - Company</p> -->
+                        <div>
+                            <select class="form-control" name="Car">
+                                <option>Car</option>
+                                <option>Aboboyaa</option>
+                                <option>Truck</option>
+                            </select>
+                            <input class="form-control" type="text" placeholder="Pickup Address">
+                            <input class="form-control" type="text" placeholder="Destination Address">
+                            <input class="form-control" type="text" placeholder="Your Phone Number">
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="base-text d-none d-md-block">
+                    &#8226; Green
+                </div>
+
+                <div class="d-block d-md-none base-text">
+                    <img src="../app/dist/images/icons/3.png" class="" alt="..." width="25">
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="base-text d-none d-md-block">
+                    &#8226; Electric
+                </div>
+                <div class="d-block d-md-none base-text">
+                    <img src="../app/dist/images/icons/2.png" class="" alt="..." width="25">
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="base-text d-none d-md-block">
+                    &#8226; Logistics
+                </div>
+                <div class="d-block d-md-none base-text">
+                    <img src="../app/dist/images/icons/4.png" class="" alt="..." width="25">
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="base-text d-none d-md-block">
+                    &#8226; Company
+                </div>
+                <div class="d-block d-md-none base-text">
+                    <img src="../app/dist/images/icons/6.png" class="" alt="..." width="25">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="about-container" id="about">
+    <div class="container">
+        <h3 class="text-center mb-5">What We Offer</h3>
+
+      
+        <div class="row row-50 align-items-center">
+            <div class="col-md-8 col-lg-7 col-xl-6" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
+                <h3>Providing quality<br>delivery services</h3>
+                <p>Okadaship an Afriship Logistics Service(Swiftly Safe Convenience)
+                    is a mobile application dispatch service. Customers sign up and
+                    they can request for various pick ups and other related services.</p>
+                <!-- Quote Light-->
+                <blockquote class="d-flex py-4 border-top border-bottom" data-aos="fade-left" data-aos-once="true"
+                    data-aos-duration="2000">
+                    <i class="fas fa-quote-left"></i>
+                    <div class="ml-4">
+                        <p class="m-0 quote-light-text">Using our electric bikes our riders are highly trained and safety is
+                            our priority. </p>
+                    </div>
+                </blockquote>
+            </div>
+            <div class="col-md-4 col-lg-5 col-xl-6">
+                <div class="thumbnail-classy mt-5 mt-md-0" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
+                    <img src="../app/dist/images/s02.png" class="ml-0 ml-md-5" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-5 mt-5">
+            <div class="col-sm-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card" data-aos="fade-up" data-aos-once="true">
+                    <div>
+                        <img src="../app/dist/images/icon.png" class="" alt="..." height="160">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">PACKAGE DELIVERY</h5>
+                        <p class="card-text">Enjoy fast and safe package delivery from our professional drivers.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+                    <div>
+                        <img src="../app/dist/images/icon-3.png" class="" alt="..." height="160">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">COURIER Services</h5>
+                        <p class="card-text">We provide the quickest and fastest courier services within Accra.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000">
+                    <div>
+                        <img src="../app/dist/images/icon-2.png" class="" alt="..." height="160">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">CAMPUS RIDE</h5>
+                        <p class="card-text">Ride our new electric bikes to lectures through a daily affordable rental.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</div>
+
+<div class="our-team" id="team">
+    <div class="container">
+        <h3>OUR TEAM</h3>
+
+        <div class="row mt-5">
+            <div class="col-12 col-md-3 mb-4 mb-md-0">
+                <div class="card py-0" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                    <img src="../app/dist/images/avatars/q1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 17px;">ERNEST E AMISSAH</h5>
+                        <p class="card-text text-primary" style="font-size: 14px;"> FOUNDER & C.E.O</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-4 mb-md-0">
+                <div class="card py-0" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500">
+                    <img src="../app/dist/images/avatars/q2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 17px;">DANIEL FRIMPONG</h5>
+                        <p class="card-text text-primary" style="font-size: 14px;">CHIEF FINANCE OFFICE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-4 mb-md-0">
+                <div class="card py-0" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+                    <img src="../app/dist/images/avatars/q4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 17px;">SHALOM K. AMOAH</h5>
+                        <p class="card-text text-primary" style="font-size: 14px;">CHIEF OPERATIONS OFFICER</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-4 mb-md-0">
+                <div class="card py-0" data-aos="fade-up" data-aos-once="true" data-aos-duration="2500">
+                    <img src="../app/dist/images/avatars/q3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 17px;">HARRISON KRAIGER</h5>
+                        <p class="card-text text-primary" style="font-size: 14px;" id="services">BRANDS MANAGER</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<h1 class="font-weight-bold text-center pt-5">Services</h1>
+<div class="services-about pt-0 pt-md-5">
+    <div class="container">
+
+        <div class="list-blocks">
+            <div class="list-blocks-item" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                <div class="list-blocks-item-inner">
+                    <ul class="list footer-classic-list p-0">
+                        <li>Campus Ride: Ride our NIU electric bikes to
+                            lectures through a daily affordable rental.</li>
+                        <li>Roadside assistance(fueltop off, tire
+                            service, locksmith)</li>
+                        <li>Food Deliveries limited to only registered
+                            vendors.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-blocks-item" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                <div class="list-blocks-item-inner">
+                    <ul class="list footer-classic-list p-0">
+                        <li>Packages</li>
+                        <li>Beat the traffic( Commute through rush
+                            hour safe and fast)</li>
+                        <li>Parcel logistics(DHL, FedEx, UPS, Aramex,
+                            GhanaPost)</li>
+                        <li>E-commerce Deliveries</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-blocks-item list-blocks-item_caption pb-md-4 pb-3 pt-md-4 pt-3" data-aos="fade-up"
+                data-aos-once="true" data-aos-duration="1000">
+                <div class="list-blocks-item-inner d-none">
+                    <h3>Services</h3>
+                    <div class="heading-8">What we do</div><a class="btn btn-secondary mt-4" href="#">ORDER NOW</a>
+                </div>
+
+                <div class="w-100">
+                    <img src="../app/dist/images/services.png" class="w-100" alt="...">
+                </div>
+            </div>
+            <div class="list-blocks-item" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                <div class="list-blocks-item-inner">
+                    <ul class="list footer-classic-list p-0">
+                        <li>Medi-Pharma</li>
+                        <li>Bike sale</li>
+                        <li>Banking (Expedited
+                            Deposits cash limit
+                            applicable)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-blocks-item" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                <div class="list-blocks-item-inner">
+                    <ul class="list footer-classic-list p-0">
+                        <li>Laundry Service(Drop off/
+                            Pick Ups)</li>
+                        <li>Mail</li>
+                        <li>Court(Legal Docs)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-blocks-item" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                <div class="list-blocks-item-inner">
+                    <p class="list-blocks-title">Okadaship will create
+                        retail and service
+                        office points in Togo,
+                        Ghana, Burkina Faso,
+                        Nigeria, and Benin.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="campus-ride">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-5" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
+                <h3>CAMPUS RIDE</h3>
+
+                <p>CampusRide (University
+                    of Ghana, Kwame
+                    Nkrumah University of
+                    Science & Technolgy,
+                    Central University,
+                    Ashesi University and
+                    University of Cape
+                    Coast).
+                    Ride our new electric
+                    bikes to lectures
+                    through a daily
+                    affordable rental.</p>
+
+                <ul class="list-marked list-marked_secondary">
+                    <li>Special offers</li>
+                    <li>ETAXI loyalty program</li>
+                    <li>More pricing plans</li>
+                </ul>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-5">
+
+                <img src="../app/dist/images/phone.png" class="" alt="..." width="533" height="868" data-aos="fade-left"
+                    data-aos-once="true" data-aos-duration="2000">
+
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="row no-gutters ">
+                    <div class="col-12">
+                        <div class="block-ratio-content" data-aos="fade-up" data-aos-once="true"
+                            data-aos-duration="1000">
+                            <h3>BIKE SALES</h3>
+                            <!-- <div class="heading-8">Our Best Moments</div> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row no-gutters mt-4">
+                    <div class="col-12">
+                        <div class="block-ratio-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                            <img src="../app/dist/images/bikes/scooter1.png" class="" alt="..." height="432"
+                                style="object-position: right;">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="row no-gutters mt-3 mt-md-0">
+                    <div class="col-12 ">
+                        <div class="block-ratio-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                            <img src="../app/dist/images/bikes/scooter3.png" class="" alt="..." height="426">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12 col-md-6 pl-0  pr-0 pr-md-3 mb-4 mb-md-0">
+                        <div class="block-ratio-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                            <img src="../app/dist/images/bikes/scooter1.png" class="" alt="..." height="251">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 pr-0  pl-0 pl-md-3">
+                        <div class="block-ratio-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                            <img src="../app/dist/images/bikes/scooter2.png" class="" alt="..." height="251">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="testimonials">
+    <div class="">
+
+
+
+
+        <h3 class="mt-5">OUR PARTNERS</h3>
+
+        <div class="d-flex justify-content-lg-around partners mt-5">
+            <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1000">
+                <img src="../app/dist/images/partners/aramex.png" class="" alt="..." width="200">
+            </div>
+            <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1000">
+                <img src="../app/dist/images/partners/kikuu.png" class="" alt="..." width="200">
+            </div>
+            <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1500">
+                <img src="../app/dist/images/partners/tonaton.jpg" class="" alt="..." width="250">
+            </div>
+            <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="2000">
+                <img src="../app/dist/images/partners/jumia.png" class="" alt="..." width="250">
+            </div>
+            <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="2500">
+                <img src="../app/dist/images/partners/dhl.png" class="" alt="..." width="250">
+            </div>
+            <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="2500">
+                <img src="../app/dist/images/partners/ups.png" class="" alt="..." width="100">
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="about-container d-none">
+    <div class="container">
+        <h3 class="text-center mb-5">FINANCIALS </h3>
+
+
+        <div class="row row-50 align-items-center">
+            <div class="col-md-8 col-lg-7 col-xl-6" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
+                <div class="thumbnail-classy">
+                    <img src="../app/dist/images/finance1.png" class="" alt="...">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-5 col-xl-6">
+                <div class="thumbnail-classy" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
+                    <img src="../app/dist/images/finance2.png" class="" alt="...">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="parallax-container">
+
+    <div class="material-parallax">
+
+        <img src="../app/dist/images/bg-image-5.jpg" class="" alt="...">
+
+    </div>
+    <div class="parallax-content">
+        <div class="container">
+            <div class="row row-50 justify-content-start">
+                <div class="col-md-6 col-lg-5" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
+                    <h1 class="font-weight-bold"><span class="font-weight-light">-50%</span> on first order</h1>
+                    <p class="big wow clipInLeft">Our first-time customers get a great discount on their order.</p>
+                    <a class="btn btn-secondary" href="#">
+                        ORDER NOW
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+{% endblock %}
+
+{% block scripts %}
+
+
+<script type="text/javascript">
+
+
+</script>
+
+
+
+{% endblock %}

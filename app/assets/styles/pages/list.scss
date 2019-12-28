@@ -1,0 +1,32 @@
+body{
+    background: #030E38;
+
+    .wrapper{
+        height: calc(100vh - 80px)!important;
+      }
+}
+
+
+.breadcrumb{
+    background-color: transparent;
+
+    .breadcrumb-item{
+
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+        }
+
+
+        &.active {
+            color: #fff;
+        }
+        &::before{
+            color: #fff;
+        }
+    }
+    
+    
+   
+}
