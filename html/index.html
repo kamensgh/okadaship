@@ -26,7 +26,7 @@
 
 
 
-  <title>Welcome to Okadaship</title>
+  <title>Welcome to FABRA</title>
 </head>
 
 <body>
@@ -122,7 +122,7 @@
                 <div class="box-custom">
 
                     <div class="box-custom-2-inner" data-aos="fade-left" data-aos-once="true" data-aos-duration="1500">
-                        <h2>Okadaship <br> Delivery Service</h2>
+                        <h2>FABRA <br> Delivery Service</h2>
                         <div class="call-us">
                             <i class="fas fa-phone-volume"></i>
                             <a href="">+233 271 313 541</a>
@@ -204,7 +204,7 @@
         <div class="row row-50 align-items-center">
             <div class="col-md-8 col-lg-7 col-xl-6" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
                 <h3>Providing quality<br>delivery services</h3>
-                <p>Okadaship an Afriship Logistics Service(Swiftly, Safe & Convenient)
+                <p>FABRA an Afriship Logistics Service(Swiftly, Safe & Convenient)
                     is a mobile application dispatch service. Customers sign up and
                     they can request for various pick ups and other related services.</p>
                 <!-- Quote Light-->
@@ -231,7 +231,7 @@
 
         <div class="row pt-5 justify-content-center">
             <div class="col-sm-6 col-lg-4 mb-4 mb-md-0">
-                <div class="card h-100" data-aos="fade-up" data-aos-once="true"data-aos-duration="2000">
+                <div class="card h-100" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
                     <div>
                         <img src="../app/dist/images/icon.png" class="" alt="..." height="100">
                     </div>
@@ -251,7 +251,7 @@
                 </div>
 
             </div>
-           
+
             <div class="col-sm-6 col-lg-4 mb-4 mb-md-0">
                 <div class="card h-100" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
                     <div>
@@ -305,7 +305,7 @@
 
             </div>
             <div class="col-sm-6 col-lg-4 mb-4 mb-md-0">
-                <div class="card h-100"  data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+                <div class="card h-100" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
                     <div>
                         <img src="../app/dist/images/deal.png" class="" alt="..." height="100">
                     </div>
@@ -319,7 +319,7 @@
                 </div>
 
             </div>
-           
+
         </div>
 
 
@@ -661,10 +661,13 @@
 
   <script src="../app/dist/scripts/main.js"> </script>
 
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script> 
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
   </script>
@@ -672,11 +675,46 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
   </script>
 
+
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
   <script type="text/javascript">
     AOS.init();
+
+  $(document).on("click", ".show .navbar-nav .nav-item .nav-link", function (e) {
+    e.preventDefault();
+      $( ".navbar-toggler" ).trigger( "click" );
+  });
+
+    $('a[href*="#"]')
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      // Remove links that don't actually link to anything
+      .click(function (event) {
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+
+            var scrollTop = target.offset().top - $('nav').height();
+
+            $('html, body').animate({
+              scrollTop: scrollTop
+            }, 700)
+          }
+        }
+      });
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></script>
+
 
 
   <footer>
@@ -692,7 +730,7 @@
                     <ul class="list list-style-1 mt-2">
                             <li class="unit">
                              
-                                <div class="unit-body"><a href="#">Okadaship Limited,
+                                <div class="unit-body"><a href="#">FABRA Limited,
                                         Ghana Airport Cargo Center</a></div>
                             </li>
                             <li class="unit">
@@ -702,7 +740,7 @@
                                 <div class="unit-body"><a href="tel:#">+233 234 567 890</a></div>
                             </li>
                             <li class="unit">
-                            <div class="unit-body"><a class="" href="mailto:contact@okadashipafrica.com">contact@okadashipafrica.com</a>
+                            <div class="unit-body"><a class="" href="mailto:contact@fabrafrica.com">contact@fabrafrica.com</a>
                             </div>
                         </li>
                            

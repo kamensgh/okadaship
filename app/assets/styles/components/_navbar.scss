@@ -6,6 +6,10 @@ nav {
 
         .nav-link {
             color: #000 !important;
+
+            @include media-breakpoint-down(md) {
+                color: rgb(255, 255, 255) !important;
+            }
         }
 
         .logo2{
