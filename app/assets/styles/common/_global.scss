@@ -43,6 +43,26 @@ body {
 
         &.inner {
             height: 75px;
+
+
+            .bg-accent {
+
+                a{
+                    background: transparent;
+                    color: #fff;
+                    border: 2px solid #fff;
+                    border-radius: 5px;
+                    padding: 11px 25px;
+                    font-weight: 600;
+                    transition: all .25s ease-in-out;
+                    letter-spacing: .01em;
+                }
+
+
+              
+            }
+
+
         }
 
 

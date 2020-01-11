@@ -2,7 +2,7 @@ nav {
     z-index: 1;
     transition: .3s all ease-in-out;
 
-    &.sticky{
+    &.sticky {
 
         .nav-link {
             color: #000 !important;
@@ -12,22 +12,22 @@ nav {
             }
         }
 
-        .logo2{
+        .logo2 {
             display: block;
         }
 
-        .logo1{
+        .logo1 {
             display: none;
         }
 
     }
 
 
-    .logo2{
+    .logo2 {
         display: none;
     }
 
-    .logo1{
+    .logo1 {
         display: block;
     }
 
@@ -37,6 +37,18 @@ nav {
 
     &.inner {
         height: 100px;
+
+
+        .bg-accent a {
+            background: transparent;
+            color: #000;
+            border: 2px solid #000;
+            border-radius: 5px;
+            padding: 11px 25px;
+            font-weight: 600;
+            transition: all .25s ease-in-out;
+            letter-spacing: .01em;
+        }
     }
 
 
